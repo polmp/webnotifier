@@ -18,7 +18,7 @@ This package needs:
 
 To install Webnotifier, use pip
 
-```bash
+```shell
 $ pip install webnotifier
 ```
 
@@ -29,7 +29,7 @@ Instanciate the WebNotifier class and pass an url array and two callbacks. Also,
 ```python
 from webnotifier import WebNotifier
 
-my_urls = [{'name':'Google','href':'https://www.google.com'}, {'name':'Medium','href':'https://medium.com'},{'name':'Localhost','href':'http://127.0.0.1:3000'}]
+my_urls = [{'name':'BBC','href':'https://www.bbc.com'}, {'name':'Medium','href':'https://medium.com'}]
 
 def onError(err):
     """
