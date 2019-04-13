@@ -78,7 +78,6 @@ class WebNotifier:
                 self.onError(err)
 
     def start(self):
-        #self._init_urls()
         while(True):
             self._check_urls()
             sleep(self.interval)
