@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="webnotifier",
-    version="0.1.0",
+    version="0.1.1",
     author="Pol MP",
     author_email="pol.moreno30@gmail.com",
     description="A package for notifying any webpage change",
